@@ -1,4 +1,4 @@
-name := """scala-play-diary"""
+name := """scala-play-blog"""
 organization := "org.shibayu36"
 
 version := "1.0-SNAPSHOT"

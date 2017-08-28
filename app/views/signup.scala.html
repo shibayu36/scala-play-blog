@@ -1,0 +1,9 @@
+@()
+
+@main("ユーザー登録") {
+  <h1>ユーザー登録</h1>
+  <form method="POST" action="@routes.SignupController.postSignup">
+    <p>ユーザー名: <input name="user_name" /></p>
+    <input type="submit" value="送信" />
+  </form>
+}
